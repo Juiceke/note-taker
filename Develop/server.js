@@ -25,11 +25,12 @@ app.get("/api/notes", (req, res) => {
 });
 
 app.post("/api/notes", (req, res) => {
-  const what = req.body;
+  // set id
+  req.body.id = notes.length.toString();
 
-  console.log(what);
+  console.log(req.body);
 
-  notes.push(what);
+  notes.push(req.body);
 
   res.json(notes);
 });
