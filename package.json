@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Juiceke/note-taker/issues"
   },
-  "homepage": "https://github.com/Juiceke/note-taker#readme"
+  "homepage": "https://github.com/Juiceke/note-taker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
