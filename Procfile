@@ -1,1 +1,1 @@
-web: node ./develop/server
+web: node develop/server
