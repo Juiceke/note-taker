@@ -1,9 +1,7 @@
 const express = require("express");
 
 const PORT = process.env.PORT || 3001;
-const router = require("express").Router();
 const app = express();
-const fs = require("fs");
 const path = require("path");
 const { notes } = require("./db/db");
 
@@ -40,5 +38,3 @@ app.listen(PORT, () => {
     `Express server listening on port %d in %s mode", this.address().port, app.settings.env`
   );
 });
-
-module.exports = router;
