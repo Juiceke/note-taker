@@ -1,6 +1,6 @@
 const express = require("express");
 
-const PORT = process.env.PORT || 3001;
+const port = process.env.PORT || 3001;
 const app = express();
 const path = require("path");
 const { notes } = require("./db/db");
@@ -33,7 +33,7 @@ app.post("/api/notes", (req, res) => {
   res.json(notes);
 });
 
-app.listen(PORT, () => {
+app.listen(port, () => {
   console.log(
     `Express server listening on port %d in %s mode", this.address().port, app.settings.env`
   );
