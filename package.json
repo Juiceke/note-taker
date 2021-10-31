@@ -2,10 +2,10 @@
   "name": "miniature-eureka",
   "version": "1.0.0",
   "description": "https://juiceke.github.io/note-taker/",
-  "main": "./develop/server.js",
+  "main": "./Develop/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./develop/server.js"
+    "start": "node ./Develop/server.js"
   },
   "repository": {
     "type": "git",
