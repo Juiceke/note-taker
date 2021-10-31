@@ -1,0 +1,19 @@
+{
+  "name": "miniature-eureka",
+  "version": "1.0.0",
+  "description": "https://juiceke.github.io/note-taker/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juiceke/note-taker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juiceke/note-taker/issues"
+  },
+  "homepage": "https://github.com/Juiceke/note-taker#readme"
+}
