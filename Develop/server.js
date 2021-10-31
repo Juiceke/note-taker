@@ -36,7 +36,9 @@ app.post("/api/notes", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`API server now on port ${PORT}!`);
+  console.log(
+    `Express server listening on port %d in %s mode", this.address().port, app.settings.env`
+  );
 });
 
 module.exports = router;
