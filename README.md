@@ -1,2 +1,2 @@
 # Note Taker
-https://juiceke.github.io/note-taker/
+https://note-taker-juiceke.herokuapp.com/notes
